@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+<meta charset = "utf-8"/>
+<meta name = "description"		content = "Home Page of Exza Tech Solutions"/>
+<meta name = "keywords"		content = "Exza Tech Solutions, Information Technology Solutions, Solutions, Web Solutions, Java Solutions, Dot Net, C,C++"/>
+<meta name = "author"	content = "Ronak Shah"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<title> EXZA Tech Solutions </title>
+<link  href="styles/mystyle.css" rel="stylesheet" type="text/css"/>
+<script src="script/jobs.js"></script>
+</head>
+
+<body>
+<!--organisation logo and name-->
+<header>
+
+<img src="images/EXZABW.jpg" alt="Logo" width="100" height="100"/>
+<h1>EXZA<sup>Tech Solutions</sup></h1>
+
+</header>
+<!--Navigation links-->
+<nav>
+<nav>
+<a href = "index.html">Home</a>
+<a href = "careers.html">Careers</a>
+<a href = "about.html">About Author</a>
+<a href = "enhancement.html">Enhancement</a>
+</nav>
+</nav>
+<!--Background image reference-->
+<p>Reference:<a class = "external" href = "https://annacostafood.wordpress.com/2012/10/">background image</a></p>
+<!--form for application-->
+<section id = "form">
+<!--here to check data successfully passes or not-->
+<form id = "survey" method = "post" action = "http://mercury.ict.swin.edu.au/it000000/formtest.php">
+
+<!--rest are various details that candidate needs to fill up-->
+
+<p><label for = "ref">Job Ref No:</label></p>
+<input type ="text" name = "RefNo" id = "ref"  required = "required"/>
+
+<p><label for = "jobtitle">Job Title:</label></p>
+<input type ="text"  id = "jobtitle" name = "jobstitle"  required = "required"/>
+
+<p><label for = "fname">First Name:</label></p>
+<input type ="text"  id = "fname" name = "firstname"  required = "required"/>
+
+
+<p><label for = "lname">Last Name:</label></p>
+<input type = "text" name = "lastname" id = "lname" required = "required"/>
+
+<p><label>Sex</label></p>
+
+<input type="radio" name="sex" value="male" />Male
+<input type="radio" name="sex" value="female" />Female
+
+<p><label for = "dob">DOB:</label></p>
+<input type ="text" name = "dob" id = "dob" placeholder = "DD/MM/YY" required = "required"/>
+
+
+<p><label for = "emailid">Email Id</label></p>
+<input type ="email" name = "email" placeholder = "name@domain.com" id = "emailid" required = "required"/>
+
+
+
+<p><label for = "phnno">Phone Number</label></p>
+<input type ="tel" name = "PhoneNo" id = "phnno" placeholder = "(##) ####-####" required = "required"/>
+
+
+
+<fieldset>
+<legend>Address:</legend>
+<p><label for = "streetaddr">Street Address</label></p>
+<input type = "text" name = "streetaddr" id = "streetaddr" required = "required"/>
+
+<p><label for = "suburb">Suburb/Town</label></p>
+<input type = "text" name = "suburb" id = "suburb" required = "required"/>
+
+<p><label for = "state">State:</label >
+<select name ="state" id = "state">
+<option value="act" selected="selected">ACT</option>
+<option value="nsw">NSW</option>
+<option value="nt">NT</option>
+<option value="qld">QLD</option>
+<option value="sa">SA</option>
+<option value="tas">TAS</option>
+<option value="vic">VIC</option>
+<option value="wa">WA</option>
+</select>
+</p>
+
+<p><label for = "postcode">Post Code:</label></p>
+<input type = "text" name = "postcode" id = "postcode" required = "required"/>
+
+
+</fieldset>
+
+<p>Skills
+<br />
+<label for = "microsoftoffice"><input type="checkbox" name="skills[]"
+value="Microsoft Office" id = "microsoftoffice"/>Microsoft Office</label>
+
+<label for = "touchtyping"><input type="checkbox" name="skills[]"
+value="Touch Typing" id = "touchtyping"/>Touch Typing</label>
+
+<label for = "documentationskill"><input type="checkbox" name="skills[]"
+value="Documentation Skill" id = "documentationskill"/>Documentation Skills</label>
+
+<label for = "web"><input type = "checkbox" name = "skills[]"
+value = "Web" id = "web"/>HTML/CSS/Java Script</label>
+
+<label for = "dotnet"><input type = "checkbox" name = "skills[]"
+value = "Dot Net" id = "dotnet"/>Dot Net</label>
+
+<label for = "java"><input type = "checkbox" name = "skills[]"
+value = "Java" id = "java"/>Java</label>
+
+<label for = "otherskills"><input type = "checkbox" name = "skills[]"
+value="Other Skills" id = "otherskills"/>Other Skills</label>
+</p>
+
+
+<p><label for = "skill">Other Skills
+<textarea name="otherskills"
+rows="4" cols="20" id = "skill">
+</textarea>
+</label></p>
+
+<!--after clicking submit button data will be sent and checked whether it returns back or not-->
+
+<p>
+<input type = "submit" value = "Submit"/>
+</p>
+
+</form>
+
+
+
+</section>
+<hr/>
+<!-- In the footer organizations copy-right rights is being mentioned and designers name-->
+<footer>
+
+<p>&#169;<a href = "index.html">Exza Tech Solutions </a>Dated 2014</p>
+<a href="mailto:4976711@student.swin.edu.au" id="studentmail">Designed by: Ronak Shah</a>
+
+</footer>
+
+</body>
+</html>

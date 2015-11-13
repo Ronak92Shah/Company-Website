@@ -1,0 +1,185 @@
+
+/*style.css
+author: Ronak Shah
+created: 03/10/2014
+last modified: 05/10/2014
+description: A style sheet for assignment -2
+*/
+
+/*Header position*/
+header{	
+height: 100px;
+margin: 5px;
+}
+/*position the header at right place*/
+h1{text-align: center;
+position: relative; top: -95px;
+font-size: 300%;
+}
+
+/*Used to do little styling on header*/
+sup{font-size:small;}
+
+/* navigation link*/
+nav{
+min-height: 20px;
+background-color:#a7e8ee;
+text-align: center;
+padding: 5px 10px;
+position: relative;
+width: 100%;
+top: 0px;
+}
+/*adjust colour and font-weight of all the links*/
+a{
+padding-Right: 60px;
+color:#800000;
+font-weight: bold;
+}
+
+/*to remove underline from navigation links*/
+a:link{
+text-decoration:none;
+}
+
+/*To Add effects to the navigation link*/
+a:hover{background-color: white;
+}
+
+
+
+/*To style the vertical menu bar which is hyper-linked in the same page*/
+aside#verticalnav{
+margin-left: 5px;
+padding-bottom:10px;
+margin-top: 20px; 
+float: left;
+}
+/*To remove underline*/
+ul{list-style-type: none;}
+
+/*To position the content and adjusting text and width to look good*/
+#content{
+position: relative; top: -150px; left: 300px;
+text-align: justify;
+width: 900px;
+margin-top: 5px;
+}
+
+/* Enhancement and contextual pseudo element with contextual selector*/
+
+ body h2:first-letter { 
+ font-size: 200%;
+ font-style:  italic;
+ font-weight: bold;
+ float: left;
+ }
+
+ /*pseudo class with an external link*/
+ 
+
+/*its an aside value not important so it is being moved to left image is being used for representational purpose only */
+.move{
+float: right;
+}
+
+.contentcareer{
+width: 40%;
+text-align: center;
+}
+
+
+
+
+/*element.class to move reference to right*/
+a.contentjob{
+float: left;
+}
+
+/*contents are being adjusted from margin*/
+.contentjob{margin: 5px;}
+
+
+/*Css is being applied to the form and border margin is being adjust*/
+
+#form{
+border: solid;
+width:500px;
+margin: 5px auto;
+text-align:center;
+font-weight:bold;
+
+}
+
+
+/*background image included*/
+body{
+background: url(images/background.jpg);
+}
+
+
+
+
+/*  Author Page Changes   */
+
+
+
+/*Author name and ID is aligned to right*/
+
+div{
+text-align: right;
+}
+
+/*Author's name is being bold*/
+
+.changeweight{
+font-weight: bold;
+}
+
+/*Id's font is being changed*/
+
+.changefont{
+font-family: "Courier", Monoface;
+}
+
+/*course colour is being changed*/
+
+#coursecolor{
+color: rgb(0,0,255);
+}
+
+/*image is being aligned to left*/
+
+figure{text-align: left;}
+
+/*Contextual selector for the borders in the image*/
+
+figure img {
+margin: 10px;
+background:#a7e8ee;
+padding:20px;
+border:4px solid black;
+}
+
+
+/*Grouping selector to give border to the table*/
+table,td,th{		
+border: solid;}
+
+/*To keep table in center*/
+
+table{
+margin: 0px auto;}
+
+/*To Change font of table heading and even diffent colour to distinguish*/
+
+th{
+font-style: italic;
+background-color:green;}
+
+/*Give colour to the background*/
+td{
+background-color:#a7e8ee;}
+
+
+

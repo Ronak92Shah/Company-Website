@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+<meta charset = "utf-8"/>
+<meta name = "description"		content = "Home Page of Exza Tech Solutions"/>
+<meta name = "keywords"		content = "Exza Tech Solutions, Information Technology Solutions, Solutions, Web Solutions, Java Solutions, Dot Net, C,C++"/>
+<meta name = "author"	content = "Ronak Shah"/>
+
+<title> EXZA Tech Solutions </title>
+<link  href="styles/mystyle.css" rel="stylesheet" type="text/css"/>
+<script src="script/jobs.js"></script>
+</head>
+
+<body>
+
+<?php
+include("headernav.php");
+?>
+
+<section class= "contentjob">
+<!--Refence to background image-->
+<p>Reference:<a href = "https://annacostafood.wordpress.com/2012/10/">background image</a></p>
+
+<aside class = "move">
+<!--An photo which is being asked to include-->
+<img  src="images/CSS2.jpg" alt="Image for Representational purpose " width="400" height="400"/>
+</aside>
+
+<h2>Customer Support Specialist</h2>
+<p>
+<!--Details regarding position-->
+At Exza Tech Solution there is an single opening for Customer Support Specialist, related information is given below candidates eligible for this job can apply for this job and we will get back to you in a weeks time.
+</p>
+<form id="job1form" action="enquire.php">
+<p><label for = "job1ref"></label></p>
+<input type ="radio" name = "RefNo" id = "job1ref" value = "46688" checked ="checked"/>
+
+<p><label for = "job1title"></label></p>
+<input type ="radio" name = "Job1nameTitle" id = "job1title" value = "Customer Support Service" checked ="checked"/>
+
+<ol>
+<li><h3>Job Ref No:</h3> <p>46688</p></li>
+
+
+<li><h3>Job Type:</h3>	Entry Level.Full-Time</li>
+
+<li><h3>Contact person:</h3> Sam Scott-sam@exza.com</li>
+
+<li><h3>Postion :</h3> Customer Support Specialist</li>
+
+<li><h3>About the Role </h3>
+<p>For this role you will have to utilize your strong communicating skills to bridge the gap between colleagues and customers.
+</p></li>
+<li><h3>Responsibility:</h3>
+<ul>
+<li>Ensure to provide excellent customer service through phone, e-mail, chat, etc. in timely and accurate manner. </li>
+
+<li>Serve as liaison between customer support team, management and customer to improve customer service and business productivity.</li> 
+
+<li>Analyse customer complaints and provide appropriate corrective actions. </li>
+
+<li>Assist directly or route customers to the appropriate personnel for assistance.</li> 
+
+<li>Ensure customer satisfaction by meeting customer needs in courteous and timely manner.</li> 
+
+<li>Track, follow-up and resolve customer’s outstanding issues in a timely fashion. </li>
+
+<li>Develop customer service programs in order to provide outstanding service. </li>
+
+<li>Prepare documentation and reports on routine customer correspondence for future reference purpose.</li> 
+
+<li>Assist in training peers on improving customer support service. </li>
+
+<li>Develop and maintain in-depth product knowledge. </li>
+
+<li>Conduct customer surveys about the company’s service so as to obtain feedback.</li> 
+
+<li>Communicate customer feedback to technical and marketing teams in order to develop processes for better serving customers. </li>
+
+<li>Maintain weekly reports on customer inquiries, responses and feedback so as to develop customer service analytic's and trends.</li>
+</ul>
+
+<p>Reference:<a href = "http://www.greatsampleresume.com/Job-Responsibilities/Customer-Service-Specialist-Responsibilities.html">content</a>
+</p>
+</li>
+<li><h3>Personal Attribute Sought:</h3>
+<h4>Essential Skills</h4>
+<ul>
+<li>Graduate degree with good score.</li>
+<li>Computer Knowledge.</li>
+<li>Hands on Microsoft Office.</li>
+<li>Excellent communication skills</li>
+<li>Good interpersonal skills and ready to work in a Team.</li>
+<li>positive mindset and readiness to get job done on time.</li>
+<li>Ready to move anywhere in the country for organisation.</li>
+<li>Ready to do Night shifts.</li>
+</ul>
+<h4>Desirable Skills</h4>
+<ul>
+
+<li>Experience will be handy.</li>
+<li>Programming knowledge basics of C and DotNet will be considered.  </li>
+<li>Familiarity with computer hardware and software.</li>
+
+</ul>
+</li>
+</ol>
+
+<!--This will direct to the  apply page-->
+<p>
+We would like to take this opportunity to thank you in advance for your application and advise that only candidates that meet the position requirements and are an Australian Resident will be contacted.
+</p>
+<input type = "submit" value = "Apply"/>
+</form>
+</section>
+
+<hr/>
+
+<!-- In the footer organizations copy-right rights is being mentioned and designers name-->
+<footer>
+<?php
+include("footer.php");
+?>>
+
+</footer>
+
+</body>
+</html>
